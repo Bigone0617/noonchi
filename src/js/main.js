@@ -42,13 +42,6 @@ class Main extends React.Component {
 
   }
   
-  // _deleteData = async() =>{
-  //   try{
-  //     await AsyncStorage.removeItem("김태잉&undefined")
-  //   }catch(error){
-      
-  //   }
-  // }
   _console = () => {
     const list = this.state.dataList;
     console.log(list);
